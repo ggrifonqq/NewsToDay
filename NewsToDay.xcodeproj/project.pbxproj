@@ -13,6 +13,8 @@
 		324AFBCD2BA9CF8600F1A458 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 324AFBCC2BA9CF8600F1A458 /* Assets.xcassets */; };
 		324AFBD02BA9CF8600F1A458 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 324AFBCF2BA9CF8600F1A458 /* Base */; };
 		324AFBD92BA9DF2600F1A458 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AFBD82BA9DF2600F1A458 /* Coordinator.swift */; };
+		324AFBDB2BA9E95400F1A458 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AFBDA2BA9E95400F1A458 /* AppCoordinator.swift */; };
+		324AFBDD2BA9EA7D00F1A458 /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AFBDC2BA9EA7D00F1A458 /* OnboardingCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		324AFBCF2BA9CF8600F1A458 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		324AFBD12BA9CF8600F1A458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		324AFBD82BA9DF2600F1A458 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		324AFBDA2BA9E95400F1A458 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		324AFBDC2BA9EA7D00F1A458 /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 			isa = PBXGroup;
 			children = (
 				324AFBD82BA9DF2600F1A458 /* Coordinator.swift */,
+				324AFBDA2BA9E95400F1A458 /* AppCoordinator.swift */,
+				324AFBDC2BA9EA7D00F1A458 /* OnboardingCoordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -146,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				324AFBD92BA9DF2600F1A458 /* Coordinator.swift in Sources */,
+				324AFBDD2BA9EA7D00F1A458 /* OnboardingCoordinator.swift in Sources */,
 				324AFBC82BA9CF8300F1A458 /* ViewController.swift in Sources */,
+				324AFBDB2BA9E95400F1A458 /* AppCoordinator.swift in Sources */,
 				324AFBC42BA9CF8300F1A458 /* AppDelegate.swift in Sources */,
 				324AFBC62BA9CF8300F1A458 /* SceneDelegate.swift in Sources */,
 			);
