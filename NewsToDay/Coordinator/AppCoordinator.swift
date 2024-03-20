@@ -1,13 +1,7 @@
-//
-//  AppCoordinator.swift
-//  NewsToDay
-//
-//  Created by baikal on 19.03.2024.
-//
-
 import UIKit
 
 class AppCoordinator: Coordinator {
+
     override func start() {
         showOnboardingFlow()
     }
@@ -19,10 +13,26 @@ class AppCoordinator: Coordinator {
 //MARK:
 private extension AppCoordinator {
     func showOnboardingFlow() {
-        
+        guard let navigatorController = navigatorController else { return  }
+        let onbordingCoordinator = OnboardingCoordinator(type: .onboarding, navigatorController: navigatorController, finishDelegate: self)
+        addChildCoordinator(onbordingCoordinator)
+        onbordingCoordinator.start()
     }
     func showMainFlow() {
         
     }
 }
 
+
+extension AppCoordinator: CoordinatorFinishDelegate {
+    func coordinatorDidFinish(childCoordinator: any CoordinatorProtocol) {
+        removeChildCoordinator(childCoordinator)
+        
+        switch childCoordinator.type {
+        case .app :
+            return
+        default:
+            navigatorController?.popToRootViewController(animated: true)
+        }
+    }
+}
