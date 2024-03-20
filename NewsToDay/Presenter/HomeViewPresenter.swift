@@ -7,6 +7,6 @@
 
 import Foundation
 
-class HomePresenter {
+class HomeViewPresenter {
     //TODO: release presenter
 }

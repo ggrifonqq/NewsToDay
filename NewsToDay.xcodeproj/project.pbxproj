@@ -26,7 +26,9 @@
 		324AFBF22BAAAC8200F1A458 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AFBF12BAAAC8200F1A458 /* AppColors.swift */; };
 		324AFBF52BAAACDD00F1A458 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AFBF42BAAACDD00F1A458 /* UIColor+Extension.swift */; };
 		324AFBF92BAAADE200F1A458 /* HomeAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AFBF82BAAADE200F1A458 /* HomeAssembly.swift */; };
-		324AFBFB2BAAAE3A00F1A458 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AFBFA2BAAAE3A00F1A458 /* HomePresenter.swift */; };
+		324AFBFB2BAAAE3A00F1A458 /* HomeViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AFBFA2BAAAE3A00F1A458 /* HomeViewPresenter.swift */; };
+		324AFBFD2BAAB0BF00F1A458 /* OnboardingViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AFBFC2BAAB0BF00F1A458 /* OnboardingViewPresenter.swift */; };
+		324AFC002BAAB3D900F1A458 /* ServiceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AFBFF2BAAB3D900F1A458 /* ServiceAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,7 +53,9 @@
 		324AFBF12BAAAC8200F1A458 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		324AFBF42BAAACDD00F1A458 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		324AFBF82BAAADE200F1A458 /* HomeAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAssembly.swift; sourceTree = "<group>"; };
-		324AFBFA2BAAAE3A00F1A458 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		324AFBFA2BAAAE3A00F1A458 /* HomeViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewPresenter.swift; sourceTree = "<group>"; };
+		324AFBFC2BAAB0BF00F1A458 /* OnboardingViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewPresenter.swift; sourceTree = "<group>"; };
+		324AFBFF2BAAB3D900F1A458 /* ServiceAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 		324AFBC22BA9CF8300F1A458 /* NewsToDay */ = {
 			isa = PBXGroup;
 			children = (
+				324AFBFE2BAAB3B500F1A458 /* Services */,
 				324AFBF72BAAADC600F1A458 /* Assembly */,
 				324AFBF62BAAADB100F1A458 /* Presenter */,
 				324AFBDE2BAA09BC00F1A458 /* View */,
@@ -144,7 +149,8 @@
 		324AFBF62BAAADB100F1A458 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				324AFBFA2BAAAE3A00F1A458 /* HomePresenter.swift */,
+				324AFBFA2BAAAE3A00F1A458 /* HomeViewPresenter.swift */,
+				324AFBFC2BAAB0BF00F1A458 /* OnboardingViewPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -155,6 +161,14 @@
 				324AFBF82BAAADE200F1A458 /* HomeAssembly.swift */,
 			);
 			path = Assembly;
+			sourceTree = "<group>";
+		};
+		324AFBFE2BAAB3B500F1A458 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				324AFBFF2BAAB3D900F1A458 /* ServiceAPI.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,9 +256,11 @@
 				324AFBEA2BAA994900F1A458 /* LanguageCoordinator.swift in Sources */,
 				324AFBE02BAA985600F1A458 /* HomeCoordinator.swift in Sources */,
 				324AFBE62BAA98EC00F1A458 /* ProfileCoordinator.swift in Sources */,
-				324AFBFB2BAAAE3A00F1A458 /* HomePresenter.swift in Sources */,
+				324AFC002BAAB3D900F1A458 /* ServiceAPI.swift in Sources */,
+				324AFBFB2BAAAE3A00F1A458 /* HomeViewPresenter.swift in Sources */,
 				324AFBF92BAAADE200F1A458 /* HomeAssembly.swift in Sources */,
 				324AFBC62BA9CF8300F1A458 /* SceneDelegate.swift in Sources */,
+				324AFBFD2BAAB0BF00F1A458 /* OnboardingViewPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
