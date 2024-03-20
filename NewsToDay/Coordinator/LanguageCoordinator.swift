@@ -4,8 +4,8 @@ import UIKit
 class LanguageCoordinator: Coordinator {
     override func start() {
         let vc = ViewController()
-        vc.view.backgroundColor = .blue
-        navigatorController?.pushViewController(vc, animated: true)
+        vc.view.backgroundColor = .red
+        navigationController?.pushViewController(vc, animated: true)
     }
     
     override func finish() {

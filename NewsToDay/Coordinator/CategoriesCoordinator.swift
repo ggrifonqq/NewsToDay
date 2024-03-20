@@ -1,15 +1,15 @@
 
 import UIKit
 
-class BookmarksCoordinator: Coordinator {
+class CategoriesCoordinator: Coordinator {
     override func start() {
         let vc = ViewController()
-        vc.view.backgroundColor = .white
+        vc.view.backgroundColor = .cyan
         navigationController?.pushViewController(vc, animated: true)
     }
     
     override func finish() {
-        print("BookmarksCoordinator finish")
+        print("CategoriesCoordinator finish")
     }
 }
 

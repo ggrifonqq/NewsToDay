@@ -21,6 +21,8 @@
 		324AFBE62BAA98EC00F1A458 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AFBE52BAA98EC00F1A458 /* ProfileCoordinator.swift */; };
 		324AFBE82BAA993300F1A458 /* TermsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AFBE72BAA993300F1A458 /* TermsCoordinator.swift */; };
 		324AFBEA2BAA994900F1A458 /* LanguageCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AFBE92BAA994900F1A458 /* LanguageCoordinator.swift */; };
+		324AFBED2BAA9A2F00F1A458 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AFBEC2BAA9A2F00F1A458 /* TabBarController.swift */; };
+		324AFBEF2BAA9DF300F1A458 /* CategoriesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AFBEE2BAA9DF300F1A458 /* CategoriesCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		324AFBE52BAA98EC00F1A458 /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
 		324AFBE72BAA993300F1A458 /* TermsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsCoordinator.swift; sourceTree = "<group>"; };
 		324AFBE92BAA994900F1A458 /* LanguageCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageCoordinator.swift; sourceTree = "<group>"; };
+		324AFBEC2BAA9A2F00F1A458 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		324AFBEE2BAA9DF300F1A458 /* CategoriesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,11 +95,13 @@
 				324AFBDA2BA9E95400F1A458 /* AppCoordinator.swift */,
 				324AFBDC2BA9EA7D00F1A458 /* OnboardingCoordinator.swift */,
 				324AFBDF2BAA985600F1A458 /* HomeCoordinator.swift */,
-				324AFBE12BAA989200F1A458 /* ArticleCoordinator.swift */,
+				324AFBEE2BAA9DF300F1A458 /* CategoriesCoordinator.swift */,
 				324AFBE32BAA98B900F1A458 /* BookmarksCoordinator.swift */,
 				324AFBE52BAA98EC00F1A458 /* ProfileCoordinator.swift */,
 				324AFBE72BAA993300F1A458 /* TermsCoordinator.swift */,
+				324AFBE12BAA989200F1A458 /* ArticleCoordinator.swift */,
 				324AFBE92BAA994900F1A458 /* LanguageCoordinator.swift */,
+				324AFBEC2BAA9A2F00F1A458 /* TabBarController.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -178,10 +184,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				324AFBD92BA9DF2600F1A458 /* Coordinator.swift in Sources */,
+				324AFBED2BAA9A2F00F1A458 /* TabBarController.swift in Sources */,
 				324AFBDD2BA9EA7D00F1A458 /* OnboardingCoordinator.swift in Sources */,
 				324AFBE42BAA98B900F1A458 /* BookmarksCoordinator.swift in Sources */,
 				324AFBC82BA9CF8300F1A458 /* ViewController.swift in Sources */,
 				324AFBE22BAA989200F1A458 /* ArticleCoordinator.swift in Sources */,
+				324AFBEF2BAA9DF300F1A458 /* CategoriesCoordinator.swift in Sources */,
 				324AFBDB2BA9E95400F1A458 /* AppCoordinator.swift in Sources */,
 				324AFBC42BA9CF8300F1A458 /* AppDelegate.swift in Sources */,
 				324AFBE82BAA993300F1A458 /* TermsCoordinator.swift in Sources */,

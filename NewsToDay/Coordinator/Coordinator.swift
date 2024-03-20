@@ -5,14 +5,14 @@ enum CoordinatorType {
     case onboarding
     case home
     case order
-    case list
+    case bookmarks
     case profile
 }
 
 protocol CoordinatorProtocol: AnyObject {
     var childCoordinators: [CoordinatorProtocol] { get set }
     var type: CoordinatorType { get }
-    var navigatorController: UINavigationController? { get set }
+    var navigationController: UINavigationController? { get set }
     var finishDelegate: CoordinatorFinishDelegate? { get set }
     
     func start()
@@ -39,18 +39,19 @@ protocol TabBarCoordinator: AnyObject, CoordinatorProtocol {
 }
 
 class Coordinator : CoordinatorProtocol {
+    var navigationController: UINavigationController?
+    
+
     var childCoordinators: [any CoordinatorProtocol]
     
     var type: CoordinatorType
-    
-    var navigatorController: UINavigationController?
-    
+
     var finishDelegate: (any CoordinatorFinishDelegate)?
     
-    init(childCoordinators: [CoordinatorProtocol] = [CoordinatorProtocol](), type: CoordinatorType, navigatorController: UINavigationController, finishDelegate: (any CoordinatorFinishDelegate)? = nil) {
+    init(childCoordinators: [CoordinatorProtocol] = [CoordinatorProtocol](), type: CoordinatorType, navigationController: UINavigationController, finishDelegate: (any CoordinatorFinishDelegate)? = nil) {
         self.childCoordinators = childCoordinators
         self.type = type
-        self.navigatorController = navigatorController
+        self.navigationController = navigationController
         self.finishDelegate = finishDelegate
     }
     
