@@ -15,6 +15,12 @@
 		324AFBD92BA9DF2600F1A458 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AFBD82BA9DF2600F1A458 /* Coordinator.swift */; };
 		324AFBDB2BA9E95400F1A458 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AFBDA2BA9E95400F1A458 /* AppCoordinator.swift */; };
 		324AFBDD2BA9EA7D00F1A458 /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AFBDC2BA9EA7D00F1A458 /* OnboardingCoordinator.swift */; };
+		324AFBE02BAA985600F1A458 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AFBDF2BAA985600F1A458 /* HomeCoordinator.swift */; };
+		324AFBE22BAA989200F1A458 /* ArticleCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AFBE12BAA989200F1A458 /* ArticleCoordinator.swift */; };
+		324AFBE42BAA98B900F1A458 /* BookmarksCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AFBE32BAA98B900F1A458 /* BookmarksCoordinator.swift */; };
+		324AFBE62BAA98EC00F1A458 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AFBE52BAA98EC00F1A458 /* ProfileCoordinator.swift */; };
+		324AFBE82BAA993300F1A458 /* TermsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AFBE72BAA993300F1A458 /* TermsCoordinator.swift */; };
+		324AFBEA2BAA994900F1A458 /* LanguageCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324AFBE92BAA994900F1A458 /* LanguageCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,12 @@
 		324AFBD82BA9DF2600F1A458 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		324AFBDA2BA9E95400F1A458 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		324AFBDC2BA9EA7D00F1A458 /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
+		324AFBDF2BAA985600F1A458 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		324AFBE12BAA989200F1A458 /* ArticleCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCoordinator.swift; sourceTree = "<group>"; };
+		324AFBE32BAA98B900F1A458 /* BookmarksCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarksCoordinator.swift; sourceTree = "<group>"; };
+		324AFBE52BAA98EC00F1A458 /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
+		324AFBE72BAA993300F1A458 /* TermsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsCoordinator.swift; sourceTree = "<group>"; };
+		324AFBE92BAA994900F1A458 /* LanguageCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +90,12 @@
 				324AFBD82BA9DF2600F1A458 /* Coordinator.swift */,
 				324AFBDA2BA9E95400F1A458 /* AppCoordinator.swift */,
 				324AFBDC2BA9EA7D00F1A458 /* OnboardingCoordinator.swift */,
+				324AFBDF2BAA985600F1A458 /* HomeCoordinator.swift */,
+				324AFBE12BAA989200F1A458 /* ArticleCoordinator.swift */,
+				324AFBE32BAA98B900F1A458 /* BookmarksCoordinator.swift */,
+				324AFBE52BAA98EC00F1A458 /* ProfileCoordinator.swift */,
+				324AFBE72BAA993300F1A458 /* TermsCoordinator.swift */,
+				324AFBE92BAA994900F1A458 /* LanguageCoordinator.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -161,9 +179,15 @@
 			files = (
 				324AFBD92BA9DF2600F1A458 /* Coordinator.swift in Sources */,
 				324AFBDD2BA9EA7D00F1A458 /* OnboardingCoordinator.swift in Sources */,
+				324AFBE42BAA98B900F1A458 /* BookmarksCoordinator.swift in Sources */,
 				324AFBC82BA9CF8300F1A458 /* ViewController.swift in Sources */,
+				324AFBE22BAA989200F1A458 /* ArticleCoordinator.swift in Sources */,
 				324AFBDB2BA9E95400F1A458 /* AppCoordinator.swift in Sources */,
 				324AFBC42BA9CF8300F1A458 /* AppDelegate.swift in Sources */,
+				324AFBE82BAA993300F1A458 /* TermsCoordinator.swift in Sources */,
+				324AFBEA2BAA994900F1A458 /* LanguageCoordinator.swift in Sources */,
+				324AFBE02BAA985600F1A458 /* HomeCoordinator.swift in Sources */,
+				324AFBE62BAA98EC00F1A458 /* ProfileCoordinator.swift in Sources */,
 				324AFBC62BA9CF8300F1A458 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
