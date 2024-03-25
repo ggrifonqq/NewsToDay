@@ -3,8 +3,7 @@ import UIKit
 
 class HomeCoordinator: Coordinator {
     override func start() {
-        let vc = ViewController()
-        vc.view.backgroundColor = .blue
+        let vc = HomeViewController()
         navigationController?.pushViewController(vc, animated: true)
     }
     
